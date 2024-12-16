@@ -4,14 +4,10 @@ The .exe file is used for naming large amount of files' suffixes by using .bat f
 
 Only adapt to the directory as follow:
 
-A-----
-      |
-      |-----a1 with e.g. .webp only
-      |
-      |-----a2 same as a1
-      |
-      |-----a3 same as a1
-    ... ...
-      |
-      |-----aN same as a1
+A/
+├── a1/  (contains .webp files)
+├── a2/  (contains .webp files)
+├── a3/  (contains .webp files)
+...
+└── aN/  (contains .webp files)
 And you want to rename all .webp file under A as e.g. .jpg files at once.
